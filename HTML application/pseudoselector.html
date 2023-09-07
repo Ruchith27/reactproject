@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selector</title>
+    <style>
+        h1{
+            color: darkred;
+            font-family: fantasy;
+        }
+        p{
+            font-style: italic;
+
+        }
+        .container{
+            border: 2px solid red;
+            background-color: aqua;
+            padding: 34px;
+            margin: 34px;
+            width: 656px;
+        }
+        .btn{
+            background-color: rgb(206, 111, 127);
+            padding:6px;
+            border: none;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 12px;
+            border-radius: 12px;
+            cursor: alias;
+        }
+        a{
+            text-decoration: dashed;
+            color: black;
+        }
+        a:hover{
+            color: black;
+            background-color: rgb(46, 244, 79);
+            border-radius: 5px;
+        }
+        a:active{
+            background-color: rgb(59, 68, 191);
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h1>1:00</h1>
+        <p>Time For Break</p>
+        <a href="https://www.google.com" class="btn">Read more</a>
+        <a href="" class="btn">Submit</a>
+    </div>
+</body>
+</html>
